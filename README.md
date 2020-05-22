@@ -26,7 +26,8 @@ Program starts as:
 10. Available timings are stored as a list of tuples which consists (start_time, end_time)
 
 11. Created a fun room_scheduler the funtionality as follows:  
-   """
+ 
+ -------
     Finds nearest available conference room/rooms for a team
     Parameters
     ----------
@@ -45,7 +46,6 @@ Program starts as:
         requirements, a string is returned which says 'no room available'
         - The result is a list and not a single room because there could be multiple rooms available for the team in
           the floor closest to the team
-    """
     
   12. filtering out rooms based on the meeting timings and storing all the suitable rooms in a list
   
